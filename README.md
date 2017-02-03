@@ -1,7 +1,11 @@
 Problem Description 
+
 Given a rooted tree of N nodes, where each node is uniquely numbered in between [1..N]. The node 1 is the root of the tree. Each node has an integer value which is initially 0. 
+
 You need to perform the following two kinds of queries on the tree: 
+
 • add t value: Add value to all nodes in subtree rooted at t 
+
 • max a b: Report maximum value on the path from a to b 
 
 Input Format 

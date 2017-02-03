@@ -2,12 +2,12 @@ Problem Description
 Given a rooted tree of N nodes, where each node is uniquely numbered in between [1..N]. The node 1 is the root of the tree. Each node has an integer value which is initially 0. 
 You need to perform the following two kinds of queries on the tree: 
 • add t value: Add value to all nodes in subtree rooted at t 
-• max a b: Report maximum value on the path from a to b Input Format 
+• max a b: Report maximum value on the path from a to b 
+
+Input Format 
 First line contains N, number of nodes in the tree. 
 Next N-1 lines contain two space separated integers x and y which denote that there is an edge between node x and node y.
-
 Next line contains Q, the number of queries to process.
-
 Next Q lines follow with either add or max query per line. 
 
 Constraints 
@@ -53,4 +53,3 @@ max 4 5 // for the nodes 4,2,1,5 the maximum is 30 because node 4 is 30
 add 2 -20 // subtract 20 from nodes 2,3,4
 max 4 5 // for the nodes 4,2,1,5 the maximum is now 20 because node 5 is 20 
 max 3 4 // for the nodes maximum 3,2,4 the maximum is 10 because node 4 is 10 
-
